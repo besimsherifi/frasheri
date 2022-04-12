@@ -1,0 +1,26 @@
+.logo{
+    width: 205px;
+    // border-right: 1px solid rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
+.navbar{
+    // border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0;
+}
+
+
+.delang span.show-on-hover {
+    visibility: hidden;
+    margin-left:15px;
+    cursor: pointer;
+}
+.delang:hover span.show-on-hover  {
+    visibility: visible;
+    // margin-right:5px
+}
+.delang{
+    cursor: pointer;
+    display: flex;
+    padding: 20px;
+}
